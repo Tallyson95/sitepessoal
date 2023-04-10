@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+.container{
+    text-decoration: none;
+}
+
+.body{
+    width: 100%;
+    height: 100%;
+    padding-top: 3%;
+    background-color: rgb(54, 22, 86);
+    padding-bottom: 10%;
+    
+}
+
+.mennu{
+    background-color: rgb(23, 5, 41);
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+
+
+
+span{
+    
+    font-size: 30px;
+    font-family: 'Concert One', cursive;
+    color: white;
+}
+
+
+
+li{
+    font-family: 'Concert One', cursive;
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+ul,li{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+
+    
+}
+
+a{
+    color: white;
+}
+
+
+a:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.3);
+   -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+   
+}
+
+.portfolio{
+    font-family: 'Concert One', cursive;
+    color:  rgb(253, 251, 255);
+    text-align: center;
+    font-size: 23px;
+    margin-top: 20%;
+    margin-bottom: 30%;
+}
+
+#eu{
+    display: flex;
+    justify-content: center;
+}
+
+.eu1{
+    border-radius: 50%;
+}
+
+.corpo2{
+    background-color: white;
+}
+
+
+
+.sobre{
+    color: rgb(54, 22, 86);
+    margin-top: 10%;
+    text-align: justify;
+
+}
+
+.texto1{
+    margin-bottom: 10%;
+}
+
+.about-grid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 50px;
+  
+  }
+#about-paragraph{
+    font-family: 'Concert One', cursive;
+    width: 40%;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    color:  white;
+    font-weight: 800;
+    text-align: justify;
+    background-color: rgb(54, 22, 86);
+    margin-left: 30%;
+    margin-top: 5%;
+  }
+
+#tecnologias{
+    text-align: center;
+    font-family: 'Concert One', cursive;
+    font-size: 50px;
+    color:  rgb(54, 22, 86);
+    margin-bottom: 5%;
+}
+
+#tecnologias2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-bottom: 5%;
+}
+
+#tecnologias3{
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 20px;
+}
+
+#projetos{
+    margin-top: 15%;
+    text-align: center;
+    font-family: 'Concert One', cursive;
+    color:  white;
+    padding-top: 3%;
+    
+}
+
+.corpo3{
+    background-color: rgb(54, 22, 86);
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5%;
+    
+}
+
+.projetoflex{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#projetos1{
+    margin-top: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#txt-projeto{
+    width: 400px;
+    height: 120px;
+    color: white;
+    text-align: justify;
+    font-family: 'Concert One', cursive;
+    flex-direction: column;
+    background-color: rgb(23, 5, 41);
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    text-align: unset;
+}
+
+.portfolio{
+    max-width: 100vw;
+    transform: translate(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{
+        transform: translate(0px);
+    }
+    50%{
+        transform: translate(-30px);
+    }
+    0%{
+        transform: translate(0px);
+    }
+}
+
+#containerul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.caixafooter2{
+    width: 100%;
+    background-color:  #101010;
+}
+
+
+.caixafooter{
+    margin-left: 10%;
+    width: 80%;
+    background-color: #101010;
+    color: white;
+    padding-top: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+
+.fa-fa-map-marker{
+    font-size: 100px;
+}
+
+.col-md-4inicio{
+    color: white;
+
+ }
+
+.k{
+    color: white;
+    font-size: 15px;
+  }
+.col-md-4{
+    margin-left: 5%;
+}
+
+
+
+
+.btnfooter{
+    display: flex;
+    margin-top: 10px;
+    background-color: rgb(54, 22, 86);
+}
+
+.copyright{
+    margin-left: 10%;
+    width: 80%;
+    padding-top: 3%;
+    background-color: #101010;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+#borda:hover{
+    -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+    overflow: hidden;
+    border-width: 5px;
+    border: 5px solid rgb(127, 88, 165);
+    border-radius: 5%;
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+.borda{
+    border-radius: 5%;
+}
+
+
+
